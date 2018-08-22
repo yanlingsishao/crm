@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - db.sqlite3" uuid="43533550-9276-44c7-93a5-6330c94995b3">
+    <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
+      <schema id="1">
+        <visible>1</visible>
+      </schema>
+      <table id="2" parent="1" name="app01_role"/>
+      <table id="3" parent="1" name="app01_usergroup"/>
+      <table id="4" parent="1" name="app01_userinfo"/>
+      <table id="5" parent="1" name="app01_userinfo_m2m"/>
+      <table id="6" parent="1" name="auth_group"/>
+      <table id="7" parent="1" name="auth_group_permissions"/>
+      <table id="8" parent="1" name="auth_permission"/>
+      <table id="9" parent="1" name="auth_user"/>
+      <table id="10" parent="1" name="auth_user_groups"/>
+      <table id="11" parent="1" name="auth_user_user_permissions"/>
+      <table id="12" parent="1" name="django_admin_log"/>
+      <table id="13" parent="1" name="django_content_type"/>
+      <table id="14" parent="1" name="django_migrations"/>
+      <table id="15" parent="1" name="django_session"/>
+      <table id="16" parent="1" name="sqlite_sequence"/>
+    </database-model>
+  </data-source>
+</component>
